@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ChaosConduit.DataAccess;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -12,6 +13,9 @@ namespace ChaosConduit
         protected void Application_Start()
         {
             GlobalConfiguration.Configure(WebApiConfig.Register);
+
+            SingletonDB s1 = SingletonDB.Instance;
+            s1.Initialize();
         }
     }
 }
