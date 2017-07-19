@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChaosConduit", "ChaosConduit\ChaosConduit.csproj", "{26C8597A-15B4-4FBC-AACF-3A325A984362}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChaosConduit.Tests", "ChaosConduit.Tests\ChaosConduit.Tests.csproj", "{0AE09554-D82C-496E-961F-B1ECE6F9EF8E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{26C8597A-15B4-4FBC-AACF-3A325A984362}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26C8597A-15B4-4FBC-AACF-3A325A984362}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26C8597A-15B4-4FBC-AACF-3A325A984362}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26C8597A-15B4-4FBC-AACF-3A325A984362}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AE09554-D82C-496E-961F-B1ECE6F9EF8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AE09554-D82C-496E-961F-B1ECE6F9EF8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AE09554-D82C-496E-961F-B1ECE6F9EF8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AE09554-D82C-496E-961F-B1ECE6F9EF8E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
